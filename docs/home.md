@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Home
-nav_order: 1
+title: other page
+nav_order: 2
+permalink: /second
 ---
 
-# Hello this is the home page
+# Hello this is the second page
 
 content will go here
