@@ -2,7 +2,7 @@ remote_theme: pmarsceill/just-the-docs
 
 title: AMBROSIA
 description: Robust distributed programming made easy and efficient
-baseurl: "/ambrosia/" 
+# baseurl: "/ambrosia/" 
 
 aux_links:
     "this is a link":
