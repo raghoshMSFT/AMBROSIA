@@ -57,7 +57,7 @@ The basic building blocks of AMBROSIA are *Immortals*, reliable distributed obje
 ## How it works
 The figure below outlines the basic architecture of an AMBROSIA application, showing two communicating AMBROSIA services, called Immortals. Each inner box in the figure represents a separate process running as part of the Immortal. Each instance of an Immortal exists as a software object and thread of control running inside of an application process. An Immortal instance communicates with other Immortal instances through an *Immortal Coordinator* process, which durably logs the instance's RPCs and encapsulates the low-level networking required to send RPCs. The position of requests in the log determines the order in which they are submitted to the application process for execution and then re-execution upon recovery.
 
-![Ambrosia Architecture](Architecture.svg)
+![Ambrosia Architecture](https://github.com/Microsoft/AMBROSIA/blob/master/Architecture.svg)
 
 In addition, the language specific AMBROSIA binding provides a state serializer. To avoid replaying from the start of the service during recovery, the Immortal Coordinator occasionally checkpoints the state of the Immortal, which includes the application state. The way this serialization is provided can vary from language to language, or even amongst bindings for the same language.
 
