@@ -1,8 +1,7 @@
 ---
 layout: default
 title: other page
-nav_order: 2
-permalink: /second
+nav_order: 4
 ---
 
 # Hello this is the second page
