@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Ambrosia is a programming language independent approach for authoring
+and deploying robust distributed applications."
+permalink: /
+---
 Ambrosia: Robust Distributed Programming Made Easy and Efficient
 =======================================================================
 
