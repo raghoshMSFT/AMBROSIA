@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Overview
-nav_order: 1
 ---
 
 Ambrosia: Robust Distributed Programming Made Easy and Efficient
